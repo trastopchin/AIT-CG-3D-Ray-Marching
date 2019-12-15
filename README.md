@@ -1,14 +1,14 @@
 # AIT-CG-3D-Ray-Marching
 
-Implement a ray marcher to render implicitly metaballs and other implicitly defined surfaces. Created as an extension of the [ray tracing project]() as the final project for my Computer Graphics course at the Aquincum Instute of Technology the fall of 2019 with professor László Szécsi.
+Implement a ray marcher to render metaballs and other implicitly defined surfaces. Created as an extension of the [ray tracing project](https://github.com/trastopchin/AIT-CG-3D-Ray-Tracing) as the final project for my Computer Graphics course at the Aquincum Instute of Technology the fall of 2019 with professor László Szécsi.
 
 <p align="center">
   <img src="/resources/screenshot01.png" alt="A screenshot of the running project demonstrating each of the completed features." width="800">
 </p>
 
-One should be able to download the [3D_ray_marching]() folder and open up the [index.html]() file in a web browser to see the project. To navigate the scene one can use the WASD keys to move around as well as click down and drag the mouse to change the camera's orientation. In the case of google chrome, one might have to open the browser with `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files` in order to load images and textures properly. This project was built upon László Szécsi's starter code and class powerpoint slides.
+One should be able to download the [3D_ray_marching](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/tree/master/3D_ray_marching) folder and open up the [index.html](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/blob/master/3D_ray_marching/graphics/index.html) file in a web browser to see the project. To navigate the scene one can use the WASD keys to move around as well as click down and drag the mouse to change the camera's orientation. In the case of google chrome, one might have to open the browser with `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files` in order to load images and textures properly. This project was built upon László Szécsi's starter code and class powerpoint slides.
 
-Whereas there is still some JavaScript code that is making this project work, the majority of the ray tracing implementation takes place within the [march-fs.glsl]() fragment shader.
+Whereas there is still some JavaScript code that is making this project work, the majority of the ray tracing implementation takes place within the [march-fs.glsl](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/blob/master/3D_ray_marching/graphics/js/shaders/march-fs.glsl) fragment shader.
 
 
 ## Implementation Details

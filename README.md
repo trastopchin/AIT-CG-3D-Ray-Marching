@@ -8,7 +8,7 @@ Implement a ray marcher to render metaballs and other implicitly defined surface
 
 One should be able to download the [3D_ray_marching](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/tree/master/3D_ray_marching) folder and open up the [index.html](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/blob/master/3D_ray_marching/graphics/index.html) file in a web browser to see the project. To navigate the scene one can use the WASD keys to move around as well as click down and drag the mouse to change the camera's orientation. In the case of google chrome, one might have to open the browser with `open /Applications/Google\ Chrome.app --args --allow-file-access-from-files` in order to load images and textures properly. This project was built upon László Szécsi's starter code and class powerpoint slides.
 
-Whereas there is still some JavaScript code that is making this project work, the majority of the ray tracing implementation takes place within the [march-fs.glsl](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/blob/master/3D_ray_marching/graphics/js/shaders/march-fs.glsl) fragment shader.
+Whereas there is still some JavaScript code that is making this project work, the majority of the ray marching implementation takes place within the [march-fs.glsl](https://github.com/trastopchin/AIT-CG-3D-Ray-Marching/blob/master/3D_ray_marching/graphics/js/shaders/march-fs.glsl) fragment shader.
 
 
 ## Implementation Details

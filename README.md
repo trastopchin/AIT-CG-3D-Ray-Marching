@@ -1,6 +1,6 @@
 # AIT-CG-3D-Ray-Marching
 
-Implement a ray marcher to render metaballs and other implicitly defined surfaces. Created as an extension of the [ray tracing project](https://github.com/trastopchin/AIT-CG-3D-Ray-Tracing) as the final project for my Computer Graphics course at the Aquincum Instute of Technology the fall of 2019 with professor László Szécsi.
+Implemented a ray marcher to render metaballs and other implicitly defined surfaces. Created as an extension of the [ray tracing project](https://github.com/trastopchin/AIT-CG-3D-Ray-Tracing) as the final project for my Computer Graphics course at the Aquincum Instute of Technology the fall of 2019 with professor László Szécsi.
 
 <p align="center">
   <img src="/resources/screenshot01.png" alt="A screenshot of the running project demonstrating each of the completed features." width="800">

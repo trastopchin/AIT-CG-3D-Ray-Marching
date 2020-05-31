@@ -67,6 +67,14 @@ Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `#version 30
         mat4 surface = clippedQuadrics[index].surface;
         vec4 hitPos = e + d * t;
         vec3 normal = quadricSurfaceNormal(hitPos, surface);
+
+        // if first intersection, we set the fragment distance accordingly
+        if (iteration == 0) {
+          // computing depth from world space hitPos coordinates 
+          vec4 ndcHit = hitPos * camera.viewProjMatrix;
+          gl_FragDepth = ndcHit.z / ndcHit.w * 0.5 + 0.5;
+        }
+
         // to handle both sides of the surface, flip normal towards incoming ray
         if(dot(normal, d.xyz) > 0.0) {
           normal *= -1.0;
